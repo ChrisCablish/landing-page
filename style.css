@@ -10,6 +10,9 @@ body {
     background-color: #1f2937;
     padding-left: 200px;
     padding-right: 200px;
+    /*border-style: dotted;
+    border-width: 5px;
+    border-color: yellow;*/
 }
 
 ul {
@@ -26,3 +29,66 @@ ul {
     font-weight: bolder;
 }
 
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero-element {
+    display: flex;
+    background-color: #1f2937;
+    gap: 16px;
+    
+    /*border-style: dotted;
+    border-width: 5px;
+    border-color: yellow;*/
+    
+}
+
+.hero-content {
+    /*border-style: dotted;
+    border-width: 5px;
+    border-color: yellow;*/
+    flex-wrap: wrap;
+    
+    
+}
+
+header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8; 
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-image {
+    color: #F9FaF8;
+    /*border-style: dotted;
+    border-width: 5px;
+    border-color: yellow;*/
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+.hero-content,
+.hero-image {
+    width: 400px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2a4a7;
+}
