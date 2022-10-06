@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -90,6 +94,11 @@ button {
     width: 400px;
 }
 
+.information {
+    margin-bottom: 48px;
+}
+
+
 .info-header {
     font-size: 36px;
     font-weight: bolder;
@@ -121,8 +130,44 @@ button {
     justify-content: center;
     align-items: center;
     width: 150px;
-    
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0px 200px;
+}
+
+
+.signature {
+    font-size: 16px;
+    color: #1f2937;
+    display: flex;
+    justify-content: end;
+    padding: 48px 200px;
+   
+}
+
+.quote-container {
+    padding: 150px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue-box-content {
+    display: flex;
+
+}
+
+.blue-box {
+    margin: 50px 100px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
   
